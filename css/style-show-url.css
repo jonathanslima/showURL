@@ -1,0 +1,17 @@
+.format-url{
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 10px 0 0 10px;
+	position: absolute;
+	border-radius: 0 5px 0 5px
+}
+
+.format-icon{
+	height: 15px;
+	margin-left: 3px;
+}
+
+.erase-url{
+	display: none;
+}
