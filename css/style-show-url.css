@@ -1,10 +1,28 @@
-.format-url{
+.format-url, 
+.format-red-url,
+.format-green-url,
+.format-blue-url{
 	background-color: #333;
 	color: #fff;
 	padding: 5px 10px;
 	margin: 10px 0 0 10px;
 	position: absolute;
 	border-radius: 0 5px 0 5px
+}
+
+.format-red-url{
+	background-color: #e44b23;
+	color: #fff;
+}
+
+.format-green-url{
+	background-color: #71cc52;
+	color: #fff;
+}
+
+.format-blue-url{
+	background-color: #80a6cd;
+	color: #fff;
 }
 
 .format-icon{

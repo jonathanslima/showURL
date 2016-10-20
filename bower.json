@@ -1,0 +1,23 @@
+{
+  "name": "ShowUrl",
+  "homepage": "https://github.com/jonathanslima/showURL",
+  "authors": [
+    "jonathanslima <jonathan633.jl@gmail.com>"
+  ],
+  "description": "Plugin Jquery that shows the URL of the links in the page",
+  "main": "jquery.showUrl.js",
+  "keywords": [
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
