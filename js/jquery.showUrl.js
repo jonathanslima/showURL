@@ -4,12 +4,13 @@
 		this.each(function(){
 			//Set vars
 			var _addURL;
+			var _addIMG;
 			var _getURL = $(this).attr('href');
-			var _addIMG = '<img src="img/question.svg" class="format-icon" />';
 
 			//if the user has set a color, show it
 			//else show the default (color: black)
 			color ? _addURL = '<span class="format-' + color + '-url">' + _getURL + '</span>' : _addURL = '<span class="format-url">' + _getURL + '</span>';
+			color ? _addIMG = '<img src="img/question-' + color + '.svg" class="format-icon" />' : _addIMG = '<img src="img/question.svg" class="format-icon" />';
 
 			//Add icon in the page
 			$(this).append(_addIMG);
